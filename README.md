@@ -1,16 +1,26 @@
-# React + Vite
+# Linklytics - URL Shortener 🔗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full stack URL shortener application built with React.js and Spring Boot.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+- Frontend: https://url-shortner-frontend-fmmk.onrender.com
+- Backend: https://url-shortner-sb-fo9h.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Shorten long URLs instantly
+- JWT Authentication (Login/Register)
+- Secure REST APIs with Spring Security
+- Responsive UI with Tailwind CSS
+- Dockerized application
 
-## React Compiler
+## 🛠️ Tech Stack
+- Frontend: React.js, Tailwind CSS
+- Backend: Spring Boot, Spring Security
+- Database: MySQL
+- Auth: JWT
+- Deployment: Docker, Render
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+1. Clone the repository
+2. Run backend: ./mvnw spring-boot:run
+3. Run frontend: npm run dev
